@@ -28,7 +28,7 @@ function App() {
   const handleStyle = (e) => setStyle(e.target.value);
 
   // Notification position
-  const [position, setPosition] = useState("bottom");
+  const [position, setPosition] = useState("top");
   const handlePosition = (e) => setPosition(e.target.value);
 
   return (
